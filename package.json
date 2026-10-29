@@ -1,0 +1,28 @@
+{
+  "name": "community-problem-reporting-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Community Problem Reporting System (CPRS) — Centralized MERN Monorepo (Server + Client)",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start": "node scripts/dev.js --prod",
+    "start:server": "npm --prefix server start",
+    "start:client": "npm --prefix client run preview",
+    "build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "docs:export": "python scripts/generate_docs.py",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "install:server": "npm --prefix server install",
+    "install:client": "npm --prefix client install"
+  }
+}
+

@@ -1,0 +1,34 @@
+---
+description: Community Problem Reporting System — stack, architecture, security
+alwaysApply: true
+---
+
+# Community Problem Reporting System
+
+MERN: MongoDB, Express.js, React.js, Node.js. JWT auth. Roles: citizen, admin, authority.
+
+## Architecture (SRS §7)
+
+- Presentation: React SPA (Bootstrap or Tailwind)
+- Application: Express REST API, MVC (routes, controllers, models)
+- Data: MongoDB + Mongoose
+
+## Core workflow
+
+Citizen submits → Pending Verification → Admin verifies/rejects → Admin assigns Authority → Authority updates status → Citizen notified; statusHistory auditable.
+
+## Entities (SRS §9)
+
+User, Complaint, Notification — see docs/SRS.md for fields and enums.
+
+## API (SRS §10)
+
+Auth, Users, Complaints (citizen/admin/authority), Notifications, Analytics. JWT in Authorization header; RBAC on server for every protected route.
+
+## Security (SRS §12)
+
+bcrypt passwords; JWT expiry ~24h; server-side RBAC; input validation/sanitization; image type/size validation; HTTPS in production.
+
+## Out of scope v1.0
+
+Native apps, payments, GIS pinning, i18n — do not implement.
