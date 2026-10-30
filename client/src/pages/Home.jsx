@@ -16,7 +16,7 @@ const CAROUSEL_SERVICES = [
     title: 'Waste Management & Dumps',
     category: 'Waste Management',
     description: 'Alert sanitation crews to overflowing bins, illegal dumping sites, and neighborhood waste.',
-    image: '/assets/images/service-waste.jpg',
+    image: '/assets/images/service-waste.jpeg',
     tag: 'Sanitation',
   },
   {
@@ -24,7 +24,7 @@ const CAROUSEL_SERVICES = [
     title: 'Water Leakage & Mains',
     category: 'Water Leakage',
     description: 'Flag burst water supply pipes, contaminated lines, and street flooding for plumbing dispatch.',
-    image: '/assets/images/service-water.jpg',
+    image: '/assets/images/service-water.jpeg',
     tag: 'Utilities',
   },
   {
@@ -32,7 +32,7 @@ const CAROUSEL_SERVICES = [
     title: 'Streetlight Outages',
     category: 'Streetlight',
     description: 'Restore dark streets, replace damaged lamps, and ensure nighttime safety in your area.',
-    image: '/assets/images/service-streetlight.jpg',
+    image: '/assets/images/service-streetlight.jpeg',
     tag: 'Public Safety',
   },
   {
@@ -40,7 +40,7 @@ const CAROUSEL_SERVICES = [
     title: 'Drainage & Waterlogging',
     category: 'Drainage',
     description: 'Clear clogged stormwater catchments, open canals, and stagnant water to prevent flooding.',
-    image: '/assets/images/service-drainage.jpg',
+    image: '/assets/images/service-drainage.jpeg',
     tag: 'Drainage',
   },
   {
@@ -48,7 +48,7 @@ const CAROUSEL_SERVICES = [
     title: 'Public Parks & Security',
     category: 'Security',
     description: 'Report damaged public park infrastructure, playground hazards, and security concerns.',
-    image: '/assets/images/service-parks.jpg',
+    image: '/assets/images/service-parks.jpeg',
     tag: 'Community',
   },
 ];

@@ -54,13 +54,13 @@ const ROLES = [
   {
     title: 'Administrators',
     tag: 'Verify & Coordinate',
-    image: '/assets/images/municipal-authority.jpg',
+    image: '/assets/images/municipal-authority.jpeg',
     text: 'Verify incoming reports, route them to the right municipal department, oversee user access, and analyze citywide response metrics.',
   },
   {
     title: 'Authorities',
     tag: 'Inspect & Resolve',
-    image: '/assets/images/city-workers.jpg',
+    image: '/assets/images/city-workers.webp',
     text: 'Receive complaints assigned to your jurisdiction, dispatch field crews, publish progress notes, and close out verified repairs.',
   },
 ];
@@ -161,7 +161,7 @@ export default function About() {
           <div className="flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:shadow-md">
             <div className="relative h-52 w-full overflow-hidden">
               <img
-                src="/assets/images/road-construction.jpg"
+                src="/assets/images/road-construction.jpeg"
                 alt="Road maintenance crew repairing street"
                 className="h-full w-full object-cover transition duration-300 hover:scale-105"
               />
@@ -190,7 +190,7 @@ export default function About() {
           <div className="flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:shadow-md">
             <div className="relative h-52 w-full overflow-hidden">
               <img
-                src="/assets/images/urban-community.jpg"
+                src="/assets/images/urban-community.jpeg"
                 alt="Clean modern city skyline and infrastructure"
                 className="h-full w-full object-cover transition duration-300 hover:scale-105"
               />
